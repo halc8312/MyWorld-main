@@ -581,7 +581,6 @@ footer {
 
     .nav-link:hover::after,
     .nav-link.active::after {
-        width: 3px;
         height: 100%;
     }
 
@@ -705,10 +704,6 @@ footer {
     /* Improve settings section on mobile */
     .settings-section {
         padding: 1.5rem;
-    }
-
-    /* Improve table scrolling on mobile */
-    .settings-section {
         overflow-x: auto;
     }
 
